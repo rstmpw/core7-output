@@ -1,0 +1,23 @@
+{
+  "name": "rstmpw/core7-output",
+  "description": "Core7 output control module",
+  "keywords": [
+    "core7"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RSTM Team",
+      "email": "team@rstm.pw"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "rstmpw\\core7\\output\\": "src/"
+    }
+  }
+}
